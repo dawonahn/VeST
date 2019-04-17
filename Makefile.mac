@@ -4,7 +4,9 @@
 # that should have been located in your mac (where XX.XX is your mac OS verision number)
 # when you installed the Xcode comandline tools 
 
-CXX=clang++
+#CXX=clang++
+CXX=g++-8
+
 
 LIB_FLAGS = -larmadillo -llapack -framework Accelerate
 
